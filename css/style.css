@@ -1,0 +1,280 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+/*	.header
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.header{
+	background: #FFFFFF;
+	border-bottom: 1rem solid #3C3A3B;
+}
+.wrapper{
+	width: 95rem;
+	margin: 2.5rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	background: url('../img/design/Saucony-logo.jpg') no-repeat;
+	width: 25.8rem;
+	height: 6.2rem;
+}
+.phone{
+	background: linear-gradient(to bottom, #B3B3B3, #919191);
+	width: 24.6rem;
+	height: 4.6rem;
+	border: 7px solid #919191;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font:700 1.2rem/3.6rem  sans-serif;
+	color:#FFFFFF;
+	text-align: center;
+}
+/*	.main
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.wrappermain{
+	width: 95rem;
+	margin: 2rem auto 6.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+/*	.showcase
+---------------------------------------------------------------------------
+--------------------------------------------------------------------------*/
+.showcase{
+	width: 61rem;	
+}
+.showcase h1{
+	font:600 3.4rem sans-serif;
+	width: 61rem;
+	height: 11rem;
+	background: #FF1C1A;
+	color: #ffffff;
+	border-radius: .5rem;
+	padding: 2rem;
+}
+.showcase h2{
+	font:400 2.4rem sans-serif;
+	margin: 1rem 0 2rem 2rem;
+	color: #4a4a4a;
+}
+.one{
+	width: 45rem;
+	float: left;
+	position: relative;
+}
+.one img{
+	width: 45rem;
+	height: 41rem;
+	border:1px solid #494949;
+	border-radius: 1rem; 
+	padding: 3rem;
+}
+.discount{
+	position: absolute;
+	display: block;
+	width: 15.4rem;
+	height: 15.6rem;
+	font:600 4.4rem sans-serif;
+	color: #4a4a4a;
+	text-align: center;
+	background: url('../img/design/skidka.png') no-repeat;
+	top:-3.5rem;
+	right: -2.5rem;
+	padding: 1rem 0;
+}
+.procent{
+	font:400 1.8rem sans-serif;
+}
+.cost{
+	position: absolute;
+	display: block;
+	color: #4a4a4a;
+	text-align: center;
+	background: url('../img/design/cena.png') no-repeat;
+	width: 21.8rem;
+	height: 10.3rem;
+	font:600 3.5rem/5rem sans-serif;
+	padding: .8rem 0 0;
+	bottom: -2rem;
+	right: -1.5rem;
+}
+.decor{
+	text-decoration: line-through;
+	font:600 2rem sans-serif;
+}
+.two{
+	float: right;
+	width: 12rem;
+}
+.two img{
+	width: 12rem;
+	height: 12rem;
+	border:1px solid #494949;
+	border-radius: 1rem;
+	padding: .8rem;
+	margin: 0 0 2.4rem; 
+}
+/*	.form
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.form{
+	width: 28rem;
+
+}
+.distr{
+	font: 600 1.4rem sans-serif;
+	color: #4a4a4a;
+}
+.stock{
+	color: #4a4a4a;
+	text-align: center;
+	background: url('../img/design/cena1.png') no-repeat;
+	width: 15rem;
+	height: 8rem;
+	font:600 2.4rem/3rem sans-serif;
+	margin:5rem 0 0 6.5rem;
+	color: #4a4a4a;
+}
+.decors{
+	font:600 1.4rem sans-serif;
+	text-decoration: line-through;
+}
+.to{
+	font:600 1.4rem sans-serif;
+	text-align: center;
+	color: #4a4a4a;
+	margin: 0 0 12rem 0;
+}
+.forms{
+	text-transform: uppercase;
+	color: #4a4a4a;
+	text-align: center;
+	font:600 2.4rem sans-serif;
+}
+input[type="text"]{
+	width: 28rem;
+	height: 4rem;
+	margin: 0 0 1rem;
+	border-radius: 1rem;
+	border:.1rem solid #4a4a4a;
+	font:1.4rem sans-serif;
+	padding:0 0 0 1rem;
+}
+.button{
+	display: block;
+	background: linear-gradient(to bottom, #e56160, #db2220);
+	width: 28rem;
+	height: 5.5rem;
+	border: 1rem solid #db2220;
+	border-radius: .5rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	font:500 2rem  sans-serif;
+	color:#FFFFFF;
+	text-align: center;
+	padding: .8rem 0;
+}/*	.prace
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.prace{
+	width: 95rem;
+	margin: auto ;
+	display: flex;
+	justify-content: space-between;
+}
+.img{
+	width: 23rem;
+	height: 15rem;
+	position: relative;
+	margin: 0 0 6rem;
+}
+.img img{
+	border-radius: 1rem;
+}
+.first{
+	position: absolute;
+	width: 19rem;
+	height: 11rem;
+	font:600 1.4rem sans-serif;
+	color: #4a4a4a;
+	text-align: center;
+	background: url('../img/design/base.png') no-repeat;
+	top: calc((15rem - 11rem) / 2);
+	left: calc((23rem - 19rem) / 2);
+}
+/*	.items
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.items{
+	width: 100%;
+	height: 37rem;
+	background: url('../img/design/Layer 1.jpg') center/cover no-repeat;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0 0 6rem;
+}
+.adress{
+	background: url('../img/design/Rectangle 1.png');
+	width: 39rem;
+	height: 28rem;
+	text-align: center;
+	margin: auto;
+	padding: 5rem 5.5rem 4.5rem;
+	color:#FFFFFF;
+}
+.now{
+	font: 600 2.4rem sans-serif;
+	padding:0 0 2.5rem;
+	text-transform: uppercase;
+}
+.limited{
+	font:600 1.4rem sans-serif;
+	padding:0 0 2rem;
+	text-transform: uppercase;
+}
+/*	.other
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+.other{
+	width: 95rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer{
+	position: relative;
+}
+.footer img{
+	width: 23rem;
+	height: 15rem;
+	border-radius: 1rem;
+}
+.foot{
+	position: absolute;
+	background: url('../img/design/cena-footer.png') no-repeat;
+	font:600 1.6rem/3rem sans-serif;
+	width: 11.7rem;
+	height: 5.4rem;
+	right:-1rem;
+	bottom: -1.5rem;
+	text-align: center;
+}
+.decor1{
+	text-decoration: line-through;
+	font:600 1.1rem sans-serif;
+}
+/*	clear
+---------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+body::after{
+	content: '';
+	display: block;
+	clear: both;
+}
